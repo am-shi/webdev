@@ -1,0 +1,12 @@
+
+.col{
+    display: grid;
+    grid-column:auto 2fr;
+    grid-row: auto 2fr;
+}
+
+.card-img-top{
+    height:50%;
+    object-fit:cover;
+}
+
