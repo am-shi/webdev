@@ -1,4 +1,4 @@
-
+/* 
 .col{
     display: grid;
     grid-column:auto 2fr;
@@ -8,5 +8,28 @@
 .card-img-top{
     height:50%;
     object-fit:cover;
+} */
+
+.navbar{
+    background-color:  #1c2331 !important;
+  }
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: auto; 
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+}

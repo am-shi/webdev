@@ -1,9 +1,7 @@
 
-.container-fluid{
-  background-color: #1c2331;
-
+.navbar{
+  background-color:  #1c2331 !important;
 }
-
 
 .carousel-item img {
      width:100%;
