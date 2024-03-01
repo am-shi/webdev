@@ -77,3 +77,23 @@
 }
 
  */
+
+/* Set height to 100% for card images to fill the entire card */
+.card-img-top {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Set height to 100% for cards to fill the entire space of the container */
+.card {
+    height: 100%;
+}
+
+/* Ensure cards are displayed in a 2x2 grid */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-6 {
+    flex: 0 0 50%; /* Set width to 50% for two columns */
+}
